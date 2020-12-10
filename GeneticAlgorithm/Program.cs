@@ -6,8 +6,8 @@ namespace GeneticAlgorithm
     {
         static void Main(string[] args)
         {
-            String s = "to be or not to be that is the question";
-            Console.WriteLine(s);
+            Population problem1 = new Population(150, 0.01f, "to be or not to be");
+            problem1.GenerateSolution();
         }
     }
 }
